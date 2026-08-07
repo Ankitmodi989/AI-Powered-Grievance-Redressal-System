@@ -137,8 +137,8 @@ export default function HomePage() {
       <footer className="bg-gray-900 text-gray-400 py-6 text-center text-sm">
         <div className="space-y-2">
           <p>
-            © 2025 AI-Powered Grievance Management System | Built by{" "}
-            <span className="text-cyan-400 font-semibold">Krishna</span>{" "}
+            © 2027 AI-Powered Grievance Management System | Built by{" "}
+            <span className="text-cyan-400 font-semibold">Team Thunder</span>{" "}
             {/* Used accent color for name */}
           </p>
           <div className="flex justify-center space-x-4 mt-2">
