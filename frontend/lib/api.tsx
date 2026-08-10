@@ -6,14 +6,14 @@ const api = axios.create({
   withCredentials:true
 });
 
-// api.interceptors.request.use((config) => {
-//   if (typeof window !== "undefined") { // Ensure we are on client-side
-//     const token = localStorage.getItem("token");
-//     if (token) {
-//       config.headers.Authorization = `Bearer ${token}`;
-//     }
-//   }
-//   return config;
-// });
+api.interceptors.request.use((config) => {
+  if (typeof window !== "undefined") { // Ensure we are on client-side
+    const token = localStorage.getItem("token");
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+  }
+  return config;
+});
 
 export default api;

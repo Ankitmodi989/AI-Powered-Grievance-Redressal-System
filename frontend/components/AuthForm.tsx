@@ -32,17 +32,17 @@ export default function AuthForm({ type, role }: AuthFormProps) {
           : { email: form.email, password: form.password };
 
       const res = await api.post(endpoint, payload);
-      const { access_token } = res.data;
+      const { access_token, role: actualRole } = res.data;
 
       if (!access_token) throw new Error("Invalid response from server");
 
       localStorage.setItem("token", access_token);
-      localStorage.setItem("role", role);
+      localStorage.setItem("role", actualRole); // backend ka role use karo, prop wala nahi
 
       setSuccess("Success! Redirecting...");
 
       setTimeout(() => {
-        router.push(role === "admin" ? "/admin/dashboard" : "/user/dashboard");
+        router.push(actualRole === "admin" ? "/admin/dashboard" : "/user/dashboard");
       }, 1500);
     } catch (err) {
       const error = err as AxiosError<{ detail?: string }>;
@@ -66,8 +66,8 @@ export default function AuthForm({ type, role }: AuthFormProps) {
           {type === "register"
             ? "Create Your Account"
             : role === "admin"
-            ? "Admin Login"
-            : "User Login"}
+              ? "Admin Login"
+              : "User Login"}
         </h2>
 
         {error && (
@@ -115,8 +115,8 @@ export default function AuthForm({ type, role }: AuthFormProps) {
             {loading
               ? "Processing..."
               : type === "register"
-              ? "Register"
-              : "Login"}
+                ? "Register"
+                : "Login"}
           </button>
         </form>
 

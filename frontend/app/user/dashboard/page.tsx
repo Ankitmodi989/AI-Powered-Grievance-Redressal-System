@@ -20,6 +20,7 @@ export default function UserDashboard() {
         const token = localStorage.getItem("token");
         if (!token) {
           throw new Error("No access token found. Please login.");
+         
         }
 
         const res = await api.get("/grievance/my-grievances");
