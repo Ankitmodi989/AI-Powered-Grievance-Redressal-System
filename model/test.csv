@@ -1,0 +1,601 @@
+complaint_text,language,location,department,priority
+Doddanekkundi me paani jama hai aur machhar badh rahe hain.,hinglish,Doddanekkundi,drainage,critical
+Doddanekkundi me garbage khula pada hai near ward office.,hinglish,Doddanekkundi,sanitation,high
+Kadugodi me broken road se accident ka risk hai.,hinglish,Kadugodi,roads,low
+Hongasandra me street light pole repair karna hai near main road.,hinglish,Hongasandra,street_lights,medium
+Hoodi में स्ट्रीट लाइट बंद है।,hi,Hoodi,street_lights,medium
+Sweeping has not been done in Agaram and the area is dirty.,en,Agaram,sanitation,high
+Ramamurthy Nagar me stray dogs se safety issue hai.,hinglish,Ramamurthy Nagar,health_safety,critical
+HBR Layout में नाली बंद है।,hi,HBR Layout,drainage,critical
+Horamavu में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Horamavu,public_services,low
+Jayanagar me pipeline leak ho rahi hai near park.,hinglish,Jayanagar,water_supply,high
+Chikpete में सड़क की हालत खराब है।,hi,Chikpete,roads,medium
+A live electric wire is hanging in Vijanapura near residential area.,en,Vijanapura,electricity,low
+Vignana Nagar me drainage block hai near school.,hinglish,Vignana Nagar,drainage,critical
+Municipal service is not working properly in Hongasandra.,en,Hongasandra,public_services,medium
+The street light in Hagadooru has been off for one week and the road is dark.,en,Hagadooru,street_lights,medium
+Nagavara में सड़क पर बड़ा गड्ढा है।,hi,Nagavara,roads,high
+Street light is not working in Vasanthapura near hospital for one week.,en,Vasanthapura,street_lights,medium
+Street light pole in Hagadooru needs repair near market.,en,Hagadooru,street_lights,medium
+The public facility in Sarvagna Nagar needs maintenance.,en,Sarvagna Nagar,public_services,low
+Ullalu में सार्वजनिक सुरक्षा से जुड़ी समस्या है।,hi,Ullalu,health_safety,critical
+Vishwanathnagenahalli में रात को अंधेरा रहता है क्योंकि स्ट्रीट लाइट खराब है।,hi,Vishwanathnagenahalli,street_lights,medium
+Ward 8 me electric pole box open hai aur danger hai.,hinglish,Ward 8,electricity,critical
+The street light in Chikpete has been off for 2 days and the road is dark.,en,Chikpete,street_lights,medium
+Thanisandra में बिजली के खंभे का बॉक्स खुला है और खतरा है।,hi,Thanisandra,electricity,low
+Garbage has not been collected in Doddanekkundi for one week.,en,Doddanekkundi,sanitation,high
+Jakkur me electric pole box open hai aur danger hai.,hinglish,Jakkur,electricity,critical
+Thanisandra me nali ka paani road par aa raha hai.,hinglish,Thanisandra,drainage,high
+Malleshwaram में स्ट्रीट लाइट की मरम्मत की जरूरत है।,hi,Malleshwaram,street_lights,medium
+Dharmarayaswamy Temple Ward में नाली बंद है।,hi,Dharmarayaswamy Temple Ward,drainage,high
+Mallasandra में पीने के पानी में बदबू और गंदगी है।,hi,Mallasandra,water_supply,critical
+Garbage is dumped openly in HSR Layout near main road.,en,HSR Layout,sanitation,high
+Hoysala Nagar me kachra collect nahi hua for several days.,hinglish,Hoysala Nagar,sanitation,high
+Begur में पीने के पानी में बदबू और गंदगी है।,hi,Begur,water_supply,critical
+Chikpete me paani jama hai aur machhar badh rahe hain.,hinglish,Chikpete,drainage,high
+Stray dogs are creating safety issues in Hoodi.,en,Hoodi,health_safety,critical
+Transformer is sparking in Someshwara near ward office.,en,Someshwara,electricity,critical
+The road in Vidyaranyapura is damaged and may cause accidents.,en,Vidyaranyapura,roads,high
+Doddanekkundi में सफाई ठीक से नहीं हो रही है।,hi,Doddanekkundi,sanitation,high
+Sewage water is flowing on the street in Jnanabharathi Ward.,en,Jnanabharathi Ward,drainage,critical
+There is no electricity in Ward 7 since yesterday.,en,Ward 7,electricity,high
+Water is stagnant in Gottigere and mosquitoes are increasing.,en,Gottigere,drainage,critical
+Katriguppe में मच्छर बढ़ रहे हैं।,hi,Katriguppe,health_safety,critical
+Hoodi में पानी का प्रेशर बहुत कम है।,hi,Hoodi,water_supply,high
+Jayangar में कचरे से बदबू फैल रही है।,hi,Jayangar,sanitation,critical
+Ganga Nagar में नाली का पानी सड़क पर आ रहा है।,hi,Ganga Nagar,drainage,high
+Bagalagunte me raat ko andhera rehta hai street light kharab hai.,hinglish,Bagalagunte,street_lights,medium
+The public facility in Banaswadi needs maintenance.,en,Banaswadi,public_services,low
+Transformer is sparking in Ward 12 near market.,en,Ward 12,electricity,critical
+Arakere में रात को अंधेरा रहता है क्योंकि स्ट्रीट लाइट खराब है।,hi,Arakere,street_lights,medium
+Benniganahalli में सड़क पर बड़ा गड्ढा है।,hi,Benniganahalli,roads,high
+HSR Layout में सड़क की मरम्मत की जरूरत है।,hi,HSR Layout,roads,low
+Someshwara से नागरिक सुविधा से जुड़ी शिकायत है।,hi,Someshwara,public_services,low
+Nandini Layout में टूटी सड़क से दुर्घटना का खतरा है।,hi,Nandini Layout,roads,low
+Waste collection is not happening properly in Hoodi.,en,Hoodi,sanitation,high
+Jnanabharathi Ward me public service issue hai.,hinglish,Jnanabharathi Ward,public_services,medium
+Basaveshwara Nagar में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Basaveshwara Nagar,public_services,low
+Kadugodi में बिजली के खंभे का बॉक्स खुला है और खतरा है।,hi,Kadugodi,electricity,low
+Radhakrishna Temple में खुले में कचरा पड़ा है।,hi,Radhakrishna Temple,sanitation,high
+Bellandur me road par bada gadda hai near hospital.,hinglish,Bellandur,roads,high
+There is a public service issue in Vidyaranyapura.,en,Vidyaranyapura,public_services,medium
+Sampangiram Nagar में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Sampangiram Nagar,public_services,low
+HBR Layout me road repair ki zarurat hai for one week.,hinglish,HBR Layout,roads,medium
+Dr.Rajkumar Ward में नगर निगम सेवा ठीक से काम नहीं कर रही है।,hi,Dr.Rajkumar Ward,public_services,medium
+Street light pole in Radhakrishna Temple needs repair near ward office.,en,Radhakrishna Temple,street_lights,medium
+HSR Layout me water pressure bahut low hai.,hinglish,HSR Layout,water_supply,high
+Transformer is sparking in Kengeri near temple.,en,Kengeri,electricity,critical
+Mangammanapalya में बिजली का तार नीचे लटक रहा है।,hi,Mangammanapalya,electricity,critical
+Electric pole box is open in Bommanahalli and it is unsafe.,en,Bommanahalli,electricity,critical
+Ward 8 me water pressure bahut low hai.,hinglish,Ward 8,water_supply,low
+Garbage is dumped openly in Hagadooru near hospital.,en,Hagadooru,sanitation,high
+There is a large pothole on the road in Jogupalya near school.,en,Jogupalya,roads,high
+Hemmigepura me live wire latak raha hai near bus stop.,hinglish,Hemmigepura,electricity,critical
+Sweeping has not been done in Kodigehalli and the area is dirty.,en,Kodigehalli,sanitation,high
+Chikkalasandra में नाली बंद है।,hi,Chikkalasandra,drainage,high
+Sewage water is flowing on the street in Sri Rammandira.,en,Sri Rammandira,drainage,critical
+Sewage water is flowing on the street in Begur.,en,Begur,drainage,critical
+Sweeping has not been done in Varthur and the area is dirty.,en,Varthur,sanitation,high
+Begur में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Begur,public_services,low
+Someshwara me street light pole repair karna hai near temple.,hinglish,Someshwara,street_lights,medium
+Giri Nagar me stray dogs se safety issue hai.,hinglish,Giri Nagar,health_safety,critical
+BTM Layout में ट्रांसफार्मर से चिंगारी निकल रही है।,hi,BTM Layout,electricity,critical
+Ramamurthy Nagar me road condition bahut kharab hai.,hinglish,Ramamurthy Nagar,roads,high
+Kodigehalli में मच्छर बढ़ रहे हैं।,hi,Kodigehalli,health_safety,critical
+Hagadooru में टूटी सड़क से दुर्घटना का खतरा है।,hi,Hagadooru,roads,low
+Ullalu me contaminated water supply ho raha hai.,hinglish,Ullalu,water_supply,critical
+Shiva Nagar me public safety issue hai near temple.,hinglish,Shiva Nagar,health_safety,low
+Hemmigepura me transformer se spark aa raha hai near school.,hinglish,Hemmigepura,electricity,critical
+The road in Dr.Rajkumar Ward is damaged and may cause accidents.,en,Dr.Rajkumar Ward,roads,high
+Anjanapur से नागरिक सुविधा से जुड़ी शिकायत है।,hi,Anjanapur,public_services,low
+Vishwanathnagenahalli में पीने के पानी में बदबू और गंदगी है।,hi,Vishwanathnagenahalli,water_supply,critical
+Kadugodi me stray dogs se safety issue hai.,hinglish,Kadugodi,health_safety,critical
+Mathikere में स्ट्रीट लाइट की मरम्मत की जरूरत है।,hi,Mathikere,street_lights,medium
+Ward 5 में बिजली का तार नीचे लटक रहा है।,hi,Ward 5,electricity,critical
+The lane in HBR Layout becomes unsafe at night because street lights are not working.,en,HBR Layout,street_lights,critical
+Sarvagna Nagar me public service issue hai.,hinglish,Sarvagna Nagar,public_services,medium
+Jogupalya में गंदा पानी सप्लाई हो रहा है।,hi,Jogupalya,water_supply,critical
+Doddabommasandra में सार्वजनिक सुरक्षा से जुड़ी समस्या है।,hi,Doddabommasandra,health_safety,low
+Garudacharpalya me nali ka paani road par aa raha hai.,hinglish,Garudacharpalya,drainage,high
+Hoodi में सार्वजनिक सेवा से जुड़ी समस्या है।,hi,Hoodi,public_services,medium
+Waste collection is not happening properly in Arakere.,en,Arakere,sanitation,high
+Anjanapur me kachre se badbu aa rahi hai.,hinglish,Anjanapur,sanitation,critical
+Benniganahalli में कचरे से बदबू फैल रही है।,hi,Benniganahalli,sanitation,critical
+Garbage is dumped openly in Benniganahalli near main road.,en,Benniganahalli,sanitation,high
+Dodda Bidarkallu में स्ट्रीट लाइट बंद है।,hi,Dodda Bidarkallu,street_lights,medium
+Hemmigepura में पानी का प्रेशर बहुत कम है।,hi,Hemmigepura,water_supply,high
+Pipeline is leaking in Doddabommasandra near main road.,en,Doddabommasandra,water_supply,high
+Basavanagudi में नगर निगम सेवा ठीक से काम नहीं कर रही है।,hi,Basavanagudi,public_services,medium
+Sweeping has not been done in Ulsoor and the area is dirty.,en,Ulsoor,sanitation,medium
+Municipal service is not working properly in Marenahalli.,en,Marenahalli,public_services,medium
+Ulsoor me stray dogs se safety issue hai.,hinglish,Ulsoor,health_safety,critical
+Garbage is dumped openly in Hoysala Nagar near market.,en,Hoysala Nagar,sanitation,high
+Mangammanapalya me municipal service properly kaam nahi kar rahi.,hinglish,Mangammanapalya,public_services,medium
+The lane in Chowdeshwari Ward becomes unsafe at night because street lights are not working.,en,Chowdeshwari Ward,street_lights,critical
+Contaminated water is being supplied in Kottigepalya.,en,Kottigepalya,water_supply,critical
+Bagalagunte में कचरे से बदबू फैल रही है।,hi,Bagalagunte,sanitation,critical
+Vidyaranyapura में आवारा कुत्तों से सुरक्षा समस्या है।,hi,Vidyaranyapura,health_safety,critical
+Visvesvarapuram में मच्छर बढ़ रहे हैं।,hi,Visvesvarapuram,health_safety,critical
+Hanumantha Nagar me public service issue hai.,hinglish,Hanumantha Nagar,public_services,medium
+Ulsoor me garbage burning se smoke aur breathing problem ho rahi hai.,hinglish,Ulsoor,health_safety,critical
+Road condition is poor in Horamavu and vehicles are facing issues.,en,Horamavu,roads,high
+Jogupalya में वोल्टेज बार बार घट बढ़ रहा है।,hi,Jogupalya,electricity,high
+Basavanapura में सड़क की मरम्मत की जरूरत है।,hi,Basavanapura,roads,medium
+Sweeping has not been done in Hombegowda Nagar and the area is dirty.,en,Hombegowda Nagar,sanitation,high
+Contaminated water is being supplied in Jnanabharathi Ward.,en,Jnanabharathi Ward,water_supply,critical
+Basavanapura में नाली का पानी सड़क पर आ रहा है।,hi,Basavanapura,drainage,high
+Hanumantha Nagar me street light band hai for one week.,hinglish,Hanumantha Nagar,street_lights,medium
+Sampangiram Nagar me road condition bahut kharab hai.,hinglish,Sampangiram Nagar,roads,high
+Street light pole in Jnanabharathi Ward needs repair near bus stop.,en,Jnanabharathi Ward,street_lights,medium
+Drain water is overflowing on the road in Kengeri.,en,Kengeri,drainage,high
+A live electric wire is hanging in Attiguppe near hospital.,en,Attiguppe,electricity,low
+There is a public service issue in Rajarajeshwari Nagar.,en,Rajarajeshwari Nagar,public_services,medium
+J.P.Park se civic service related complaint hai.,hinglish,J.P.Park,public_services,low
+Drinking water in Jogupalya is dirty and smells bad.,en,Jogupalya,water_supply,high
+Ward 7 me contaminated water supply ho raha hai.,hinglish,Ward 7,water_supply,critical
+Garbage burning in Begur is causing smoke and breathing problems.,en,Begur,health_safety,critical
+Ramamurthy Nagar में पानी की सप्लाई नहीं आ रही है।,hi,Ramamurthy Nagar,water_supply,high
+Waste collection is not happening properly in Sagayapuram.,en,Sagayapuram,sanitation,high
+Begur me drainage block hai near temple.,hinglish,Begur,drainage,high
+The road in Malleshwaram is damaged and may cause accidents.,en,Malleshwaram,roads,high
+Waste collection is not happening properly in Jnanabharathi Ward.,en,Jnanabharathi Ward,sanitation,high
+The road in HBR Layout is damaged and may cause accidents.,en,HBR Layout,roads,low
+Road repair is needed in Basavanapura for several days.,en,Basavanapura,roads,high
+Someshwara se civic service related complaint hai.,hinglish,Someshwara,public_services,low
+Nagapura में नाली बंद है।,hi,Nagapura,drainage,high
+Kodigehalli me street light band hai for 3 days.,hinglish,Kodigehalli,street_lights,medium
+Pipeline is leaking in Ward 1 near bus stop.,en,Ward 1,water_supply,high
+Municipal service is not working properly in Doddanekkundi.,en,Doddanekkundi,public_services,medium
+Sampangiram Nagar me public service issue hai.,hinglish,Sampangiram Nagar,public_services,medium
+Giri Nagar me safai properly nahi ho rahi.,hinglish,Giri Nagar,sanitation,medium
+Jayangar में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Jayangar,public_services,low
+Waste collection is not happening properly in Byrasandra.,en,Byrasandra,sanitation,high
+Electric pole box is open in T Dasarahalli and it is unsafe.,en,T-Dasarahalli,electricity,critical
+Arakere में सार्वजनिक सुरक्षा से जुड़ी समस्या है।,hi,Arakere,health_safety,critical
+There is a public service issue in Yadiyuru.,en,Yadiyuru,public_services,medium
+Gottigere में पानी जमा है और मच्छर बढ़ रहे हैं।,hi,Gottigere,drainage,critical
+Ulsoor में सार्वजनिक सुरक्षा से जुड़ी समस्या है।,hi,Ulsoor,health_safety,low
+The public facility in Someshwara needs maintenance.,en,Someshwara,public_services,low
+Basavanapura में सीवेज का पानी सड़क पर बह रहा है।,hi,Basavanapura,drainage,critical
+Rajagopala Nagar me machhar badh rahe hain.,hinglish,Rajagopala Nagar,health_safety,critical
+Rajajinagar में पीने के पानी में बदबू और गंदगी है।,hi,Rajajinagar,water_supply,critical
+Kempapura Agrahara me voltage fluctuation se appliances kharab ho rahe hain.,hinglish,Kempapura Agrahara,electricity,high
+Dr.Rajkumar Ward में सड़क पर बड़ा गड्ढा है।,hi,Dr.Rajkumar Ward,roads,high
+Dr.Rajkumar Ward में पानी की सप्लाई नहीं आ रही है।,hi,Dr.Rajkumar Ward,water_supply,high
+Water is stagnant in Gandhi Nagar and mosquitoes are increasing.,en,Gandhi Nagar,drainage,critical
+Water supply has not come in Begur for 3 days.,en,Begur,water_supply,high
+Street light pole in Gurappanapalya needs repair near main road.,en,Gurappanapalya,street_lights,medium
+Ward 2 में ट्रांसफार्मर से चिंगारी निकल रही है।,hi,Ward 2,electricity,critical
+C.V.Raman Nagar me road par bada gadda hai near residential area.,hinglish,C.V.Raman Nagar,roads,high
+Gottigere में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Gottigere,public_services,low
+Bellandur se civic service related complaint hai.,hinglish,Bellandur,public_services,low
+Someshwara me road condition bahut kharab hai.,hinglish,Someshwara,roads,high
+Begur me public facility maintenance chahiye.,hinglish,Begur,public_services,low
+Rajajinagar me transformer se spark aa raha hai near market.,hinglish,Rajajinagar,electricity,critical
+Hoodi me pipeline leak ho rahi hai near residential area.,hinglish,Hoodi,water_supply,high
+Nayandanahalli में गंदा पानी सप्लाई हो रहा है।,hi,Nayandanahalli,water_supply,critical
+Ramamurthy Nagar में सीवेज का पानी सड़क पर बह रहा है।,hi,Ramamurthy Nagar,drainage,critical
+Jaraganahalli में कचरा जलाने से धुआं फैल रहा है।,hi,Jaraganahalli,health_safety,critical
+Katriguppe me transformer se spark aa raha hai near residential area.,hinglish,Katriguppe,electricity,critical
+There is a public safety issue in Hoodi near school.,en,Hoodi,health_safety,low
+Whitefield me pipeline leak ho rahi hai near park.,hinglish,Whitefield,water_supply,high
+Water is stagnant in Kumaraswamy Layout and mosquitoes are increasing.,en,Kumaraswamy Layout,drainage,critical
+Jeevanbhima Nagar me safai properly nahi ho rahi.,hinglish,Jeevanbhima Nagar,sanitation,medium
+There is a public safety issue in Rajagopala Nagar near main road.,en,Rajagopala Nagar,health_safety,critical
+Varthur me broken road se accident ka risk hai.,hinglish,Varthur,roads,low
+The street light in Bellandur has been off for several days and the road is dark.,en,Bellandur,street_lights,medium
+A dead animal is lying in Kempegowda Ward and causing foul smell.,en,Kempegowda Ward,health_safety,critical
+Byrasandra me road par bada gadda hai near bus stop.,hinglish,Byrasandra,roads,high
+Water pressure is very low in Chikpete.,en,Chikpete,water_supply,high
+Hosakerehalli में मरा हुआ जानवर पड़ा है और बदबू आ रही है।,hi,Hosakerehalli,health_safety,critical
+Hampi Nagar me municipal service properly kaam nahi kar rahi.,hinglish,Hampi Nagar,public_services,medium
+Jnanabharathi Ward me dead animal pada hai aur badbu aa rahi hai.,hinglish,Jnanabharathi Ward,health_safety,critical
+Yelahanka old Satellite Town में सड़क की हालत खराब है।,hi,Yelahanka old Satellite Town,roads,high
+Ulsoor में खुले में कचरा पड़ा है।,hi,Ulsoor,sanitation,high
+There is a public service issue in Puttenahalli.,en,Puttenahalli,public_services,medium
+Byrasandra में सार्वजनिक सेवा से जुड़ी समस्या है।,hi,Byrasandra,public_services,medium
+Jeevanbhima Nagar में पानी की सप्लाई नहीं आ रही है।,hi,Jeevanbhima Nagar,water_supply,high
+Singasandra में टूटी सड़क से दुर्घटना का खतरा है।,hi,Singasandra,roads,high
+Garbage is dumped openly in Jeevanbhima Nagar near ward office.,en,Jeevanbhima Nagar,sanitation,high
+Chikpete में नाली का पानी सड़क पर आ रहा है।,hi,Chikpete,drainage,high
+A dead animal is lying in Chowdeshwari Ward and causing foul smell.,en,Chowdeshwari Ward,health_safety,critical
+Sunkenahalli me road repair ki zarurat hai for 2 days.,hinglish,Sunkenahalli,roads,medium
+Electric pole box is open in Vishwanathnagenahalli and it is unsafe.,en,Vishwanathnagenahalli,electricity,critical
+Drainage is blocked in Yelahanka old Satellite Town near main road.,en,Yelahanka old Satellite Town,drainage,high
+Nandini Layout me raat ko andhera rehta hai street light kharab hai.,hinglish,Nandini Layout,street_lights,medium
+Transformer is sparking in Ward 2 near ward office.,en,Ward 2,electricity,critical
+There is a public safety issue in Rajarajeshwari Nagar near park.,en,Rajarajeshwari Nagar,health_safety,critical
+Rajajinagar me electric pole box open hai aur danger hai.,hinglish,Rajajinagar,electricity,critical
+Drain water is overflowing on the road in Shettyhalli.,en,Shettyhalli,drainage,high
+Sudam Nagar में नाली का पानी सड़क पर आ रहा है।,hi,Sudam Nagar,drainage,high
+Kottigepalya में कई दिनों से स्ट्रीट लाइट काम नहीं कर रही है।,hi,Kottigepalya,street_lights,medium
+The lane in Malleshwaram becomes unsafe at night because street lights are not working.,en,Malleshwaram,street_lights,critical
+Jeevanbhima Nagar me kachra collect nahi hua for 2 days.,hinglish,Jeevanbhima Nagar,sanitation,high
+There is a large pothole on the road in Pattabhiram Nagar near school.,en,Pattabhiram Nagar,roads,high
+A live electric wire is hanging in Ward 3 near bus stop.,en,Ward 3,electricity,low
+Rajarajeshwari Nagar में सार्वजनिक सुरक्षा से जुड़ी समस्या है।,hi,Rajarajeshwari Nagar,health_safety,critical
+The public facility in Gandhi Nagar needs maintenance.,en,Gandhi Nagar,public_services,low
+Kodigehalli में सड़क पर बड़ा गड्ढा है।,hi,Kodigehalli,roads,high
+Pulikeshi Nagar में पानी जमा है और मच्छर बढ़ रहे हैं।,hi,Pulikeshi Nagar,drainage,high
+Water supply has not come in Indiranagar since yesterday.,en,Indiranagar,water_supply,high
+Shakambari Nagar में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Shakambari Nagar,public_services,low
+The street light in Jayanagar East has been off since yesterday and the road is dark.,en,Jayanagar East,street_lights,medium
+Byrasandra me public facility maintenance chahiye.,hinglish,Byrasandra,public_services,low
+Ward 6 में पीने के पानी में बदबू और गंदगी है।,hi,Ward 6,water_supply,critical
+Nandini Layout me road condition bahut kharab hai.,hinglish,Nandini Layout,roads,high
+A live electric wire is hanging in Ward 5 near bus stop.,en,Ward 5,electricity,low
+Jnanabharathi Ward me public facility maintenance chahiye.,hinglish,Jnanabharathi Ward,public_services,low
+Water is stagnant in Hebbal and mosquitoes are increasing.,en,Hebbal,drainage,critical
+A.Narayanapura में सड़क की हालत खराब है।,hi,A.Narayanapura,roads,medium
+Water pressure is very low in Ward 11.,en,Ward 11,water_supply,low
+Drinking water in Ward 7 is dirty and smells bad.,en,Ward 7,water_supply,low
+Kavalbyrasandra में खुले में कचरा पड़ा है।,hi,Kavalbyrasandra,sanitation,high
+The road in Bommanahalli is damaged and may cause accidents.,en,Bommanahalli,roads,high
+Jayanagar me voltage fluctuation se appliances kharab ho rahe hain.,hinglish,Jayanagar,electricity,high
+Transformer is sparking in Ward 8 near main road.,en,Ward 8,electricity,critical
+Maruthi Seva Nagar me bijli nahi aa rahi since yesterday.,hinglish,Maruthi Seva Nagar,electricity,high
+Pipeline is leaking in Hebbal near apartment gate.,en,Hebbal,water_supply,high
+Road repair is needed in Jalahalli for 3 days.,en,Jalahalli,roads,medium
+Katriguppe में वोल्टेज बार बार घट बढ़ रहा है।,hi,Katriguppe,electricity,high
+Chikkalasandra में टूटी सड़क से दुर्घटना का खतरा है।,hi,Chikkalasandra,roads,low
+Sri Nagar से नागरिक सुविधा से जुड़ी शिकायत है।,hi,Sri Nagar,public_services,low
+Kengeri me contaminated water supply ho raha hai.,hinglish,Kengeri,water_supply,critical
+A live electric wire is hanging in Kadugodi near school.,en,Kadugodi,electricity,low
+Pipeline is leaking in Hebbal near park.,en,Hebbal,water_supply,high
+Electric pole box is open in Ward 7 and it is unsafe.,en,Ward 7,electricity,critical
+Garbage is dumped openly in Kavalbyrasandra near main road.,en,Kavalbyrasandra,sanitation,high
+There is no electricity in Rajajinagar for one week.,en,Rajajinagar,electricity,high
+Anjanapur me road repair ki zarurat hai for 3 days.,hinglish,Anjanapur,roads,medium
+Shakthiganapathi Nagar me street light band hai for 2 days.,hinglish,Shakthiganapathi Nagar,street_lights,medium
+Thanisandra me street light pole repair karna hai near temple.,hinglish,Thanisandra,street_lights,medium
+Vasanthapura me machhar badh rahe hain.,hinglish,Vasanthapura,health_safety,critical
+Sweeping has not been done in Vidyaranyapura and the area is dirty.,en,Vidyaranyapura,sanitation,high
+The lane in Sanjay Nagar becomes unsafe at night because street lights are not working.,en,Sanjay Nagar,street_lights,critical
+Garbage burning in Agaram is causing smoke and breathing problems.,en,Agaram,health_safety,critical
+Byrasandra में सड़क की हालत खराब है।,hi,Byrasandra,roads,medium
+Rajarajeshwari Nagar me machhar badh rahe hain.,hinglish,Rajarajeshwari Nagar,health_safety,critical
+There is a large pothole on the road in Byatarayanapura near bus stop.,en,Byatarayanapura,roads,high
+Byatarayanapura में नाली का पानी सड़क पर आ रहा है।,hi,Byatarayanapura,drainage,high
+Water is stagnant in Basavanapura and mosquitoes are increasing.,en,Basavanapura,drainage,critical
+Sri Rammandira me public facility maintenance chahiye.,hinglish,Sri Rammandira,public_services,low
+Street light pole in Hoodi needs repair near apartment gate.,en,Hoodi,street_lights,medium
+Yelahanka में बिजली का तार नीचे लटक रहा है।,hi,Yelahanka,electricity,critical
+Thanisandra में पानी जमा है और मच्छर बढ़ रहे हैं।,hi,Thanisandra,drainage,high
+Gurappanapalya me raat ko andhera rehta hai street light kharab hai.,hinglish,Gurappanapalya,street_lights,medium
+Water pressure is very low in Ward 8.,en,Ward 8,water_supply,low
+Road repair is needed in Thanisandra since yesterday.,en,Thanisandra,roads,high
+Ward 4 me electric pole box open hai aur danger hai.,hinglish,Ward 4,electricity,critical
+The street light in Vijanapura has been off for one week and the road is dark.,en,Vijanapura,street_lights,medium
+Kengeri me water pressure bahut low hai.,hinglish,Kengeri,water_supply,low
+Rayapuram me paani jama hai aur machhar badh rahe hain.,hinglish,Rayapuram,drainage,high
+Chikpete me dead animal pada hai aur badbu aa rahi hai.,hinglish,Chikpete,health_safety,critical
+Puttenahalli me nali ka paani road par aa raha hai.,hinglish,Puttenahalli,drainage,high
+Waste collection is not happening properly in Yelahanka old Satellite Town.,en,Yelahanka old Satellite Town,sanitation,high
+Sri Rammandira में स्ट्रीट लाइट बंद है।,hi,Sri Rammandira,street_lights,medium
+HBR Layout me machhar badh rahe hain.,hinglish,HBR Layout,health_safety,low
+Jeevanbhima Nagar में गंदा पानी सप्लाई हो रहा है।,hi,Jeevanbhima Nagar,water_supply,critical
+Drainage is blocked in Pulikeshi Nagar near apartment gate.,en,Pulikeshi Nagar,drainage,high
+Kempegowda Ward me paani supply nahi aa rahi since yesterday.,hinglish,Kempegowda Ward,water_supply,high
+Vidyaranyapura me transformer se spark aa raha hai near park.,hinglish,Vidyaranyapura,electricity,critical
+There is a public service issue in Sarakki.,en,Sarakki,public_services,medium
+Waste collection is not happening properly in Basavanapura.,en,Basavanapura,sanitation,high
+Chikpete में आवारा कुत्तों से सुरक्षा समस्या है।,hi,Chikpete,health_safety,low
+Garudacharpalya में नाली का पानी सड़क पर आ रहा है।,hi,Garudacharpalya,drainage,high
+Ullalu में स्ट्रीट लाइट बंद है।,hi,Ullalu,street_lights,medium
+Vishwanathnagenahalli me street light pole repair karna hai near ward office.,hinglish,Vishwanathnagenahalli,street_lights,medium
+Ramamurthy Nagar me contaminated water supply ho raha hai.,hinglish,Ramamurthy Nagar,water_supply,critical
+Kavalbyrasandra में गंदा पानी सप्लाई हो रहा है।,hi,Kavalbyrasandra,water_supply,critical
+Horamavu में स्ट्रीट लाइट की मरम्मत की जरूरत है।,hi,Horamavu,street_lights,medium
+Gali Anjaneya Swamy Temple Ward me raat ko andhera rehta hai street light kharab hai.,hinglish,Gali Anjaneya Swamy Temple Ward,street_lights,medium
+K.R.Puram में बिजली नहीं आ रही है।,hi,K.R.Puram,electricity,high
+Bellandur me drainage block hai near park.,hinglish,Bellandur,drainage,high
+Indiranagar me pipeline leak ho rahi hai near temple.,hinglish,Indiranagar,water_supply,high
+Bellandur me drainage block hai near main road.,hinglish,Bellandur,drainage,high
+Vishwanathnagenahalli me dead animal pada hai aur badbu aa rahi hai.,hinglish,Vishwanathnagenahalli,health_safety,critical
+Bellandur me bijli nahi aa rahi for one week.,hinglish,Bellandur,electricity,high
+Gandhi Nagar में सार्वजनिक सेवा से जुड़ी समस्या है।,hi,Gandhi Nagar,public_services,medium
+Deepanjali Nagar में रात को अंधेरा रहता है क्योंकि स्ट्रीट लाइट खराब है।,hi,Deepanjali Nagar,street_lights,medium
+Jayachamarajendra Nagar me public facility maintenance chahiye.,hinglish,Jayachamarajendra Nagar,public_services,low
+The public facility in Nagapura needs maintenance.,en,Nagapura,public_services,low
+Shanthala Nagar me public facility maintenance chahiye.,hinglish,Shanthala Nagar,public_services,low
+Ward 3 में पानी की सप्लाई नहीं आ रही है।,hi,Ward 3,water_supply,high
+There is a public safety issue in Hoodi near ward office.,en,Hoodi,health_safety,critical
+Kadugodi में बिजली नहीं आ रही है।,hi,Kadugodi,electricity,high
+T Dasarahalli me road par bada gadda hai near market.,hinglish,T-Dasarahalli,roads,high
+HSR Layout में गंदा पानी सप्लाई हो रहा है।,hi,HSR Layout,water_supply,critical
+Road condition is poor in Garudacharpalya and vehicles are facing issues.,en,Garudacharpalya,roads,high
+Drainage is blocked in Horamavu near residential area.,en,Horamavu,drainage,high
+Sarakki में नगर निगम सेवा ठीक से काम नहीं कर रही है।,hi,Sarakki,public_services,medium
+Lakkasandra me road repair ki zarurat hai for 2 days.,hinglish,Lakkasandra,roads,high
+Doddanekkundi me public safety issue hai near residential area.,hinglish,Doddanekkundi,health_safety,critical
+Jakkur se civic service related complaint hai.,hinglish,Jakkur,public_services,low
+Gottigere me street light pole repair karna hai near residential area.,hinglish,Gottigere,street_lights,medium
+Vishwanathnagenahalli में कचरे से बदबू फैल रही है।,hi,Vishwanathnagenahalli,sanitation,critical
+Hoodi me drainage block hai near park.,hinglish,Hoodi,drainage,critical
+Hanumantha Nagar में स्ट्रीट लाइट बंद है।,hi,Hanumantha Nagar,street_lights,medium
+Hemmigepura में सड़क पर बड़ा गड्ढा है।,hi,Hemmigepura,roads,high
+Mosquito breeding is increasing in Chokkasandra due to stagnant water.,en,Chokkasandra,health_safety,critical
+Hagadooru me contaminated water supply ho raha hai.,hinglish,Hagadooru,water_supply,critical
+Garbage is dumped openly in Sarakki near market.,en,Sarakki,sanitation,high
+Ward 7 में वोल्टेज बार बार घट बढ़ रहा है।,hi,Ward 7,electricity,high
+Sewage water is flowing on the street in Peenya Industrial Area.,en,Peenya Industrial Area,drainage,critical
+Vidyaranyapura me raat ko andhera rehta hai street light kharab hai.,hinglish,Vidyaranyapura,street_lights,medium
+S.K.Garden में स्ट्रीट लाइट की मरम्मत की जरूरत है।,hi,S.K.Garden,street_lights,medium
+Rajamahal में गंदा पानी सप्लाई हो रहा है।,hi,Rajamahal,water_supply,critical
+Hoodi me bijli nahi aa rahi for one week.,hinglish,Hoodi,electricity,high
+Water supply has not come in Koramangala for several days.,en,Koramangala,water_supply,high
+Someshwara wali gali me street lights kaam nahi kar rahi.,hinglish,Someshwara,street_lights,medium
+Varthur se civic service related complaint hai.,hinglish,Varthur,public_services,low
+Hemmigepura me paani supply nahi aa rahi for 2 days.,hinglish,Hemmigepura,water_supply,high
+Bellandur में पानी का प्रेशर बहुत कम है।,hi,Bellandur,water_supply,high
+Agaram me stray dogs se safety issue hai.,hinglish,Agaram,health_safety,critical
+Begur me electric pole box open hai aur danger hai.,hinglish,Begur,electricity,critical
+There is a large pothole on the road in Sarakki near park.,en,Sarakki,roads,high
+Water is stagnant in Muneshwara Nagar and mosquitoes are increasing.,en,Muneshwara Nagar,drainage,critical
+Sewage water is flowing on the street in Vidyaranyapura.,en,Vidyaranyapura,drainage,critical
+Malleshwaram me broken road se accident ka risk hai.,hinglish,Malleshwaram,roads,high
+Adugodi wali gali me street lights kaam nahi kar rahi.,hinglish,Adugodi,street_lights,medium
+Horamavu में नाली का पानी सड़क पर आ रहा है।,hi,Horamavu,drainage,high
+Road repair is needed in Chikkalasandra since yesterday.,en,Chikkalasandra,roads,medium
+Shanthala Nagar me road par bada gadda hai near school.,hinglish,Shanthala Nagar,roads,high
+Ward 7 me drinking water dirty aur smell wala aa raha hai.,hinglish,Ward 7,water_supply,low
+Street light is not working in Kodigehalli near market for 2 days.,en,Kodigehalli,street_lights,medium
+Water supply has not come in Ward 7 since yesterday.,en,Ward 7,water_supply,high
+Garbage is dumped openly in Rajarajeshwari Nagar near hospital.,en,Rajarajeshwari Nagar,sanitation,high
+Katriguppe me road par bada gadda hai near main road.,hinglish,Katriguppe,roads,high
+Koramangala में गंदा पानी सप्लाई हो रहा है।,hi,Koramangala,water_supply,critical
+Street light pole in Chikkalasandra needs repair near main road.,en,Chikkalasandra,street_lights,medium
+Kacharakanahalli me kachre se badbu aa rahi hai.,hinglish,Kacharakanahalli,sanitation,critical
+Hemmigepura में बिजली नहीं आ रही है।,hi,Hemmigepura,electricity,high
+Whitefield me water pressure bahut low hai.,hinglish,Whitefield,water_supply,low
+HSR Layout में पीने के पानी में बदबू और गंदगी है।,hi,HSR Layout,water_supply,critical
+Sunkenahalli me broken road se accident ka risk hai.,hinglish,Sunkenahalli,roads,medium
+Kodigehalli me kachra collect nahi hua for several days.,hinglish,Kodigehalli,sanitation,high
+Subramanya Nagar में स्ट्रीट लाइट की मरम्मत की जरूरत है।,hi,Subramanya Nagar,street_lights,medium
+Padmanabha Nagar में कचरा नहीं उठाया गया है।,hi,Padmanabha Nagar,sanitation,high
+Sudduguntepalya me live wire latak raha hai near apartment gate.,hinglish,Sudduguntepalya,electricity,critical
+Pulikeshi Nagar में सड़क पर बड़ा गड्ढा है।,hi,Pulikeshi Nagar,roads,high
+Jnanabharathi Ward में बिजली के खंभे का बॉक्स खुला है और खतरा है।,hi,Jnanabharathi Ward,electricity,low
+Garbage has not been collected in Banashankari Temple Ward since yesterday.,en,Banashankari Temple Ward,sanitation,high
+Bellandur me contaminated water supply ho raha hai.,hinglish,Bellandur,water_supply,critical
+There is a public service issue in Maruthi Seva Nagar.,en,Maruthi Seva Nagar,public_services,medium
+Yelahanka old Satellite Town me dead animal pada hai aur badbu aa rahi hai.,hinglish,Yelahanka old Satellite Town,health_safety,critical
+Konena Agrahara में वोल्टेज बार बार घट बढ़ रहा है।,hi,Konena Agrahara,electricity,high
+Bilekahalli me bijli nahi aa rahi for 3 days.,hinglish,Bilekahalli,electricity,high
+Electric pole box is open in Dattathreya Temple and it is unsafe.,en,Dattathreya Temple,electricity,critical
+Rajajinagar में वोल्टेज बार बार घट बढ़ रहा है।,hi,Rajajinagar,electricity,high
+J.P.Park में सड़क की हालत खराब है।,hi,J.P.Park,roads,high
+Mangammanapalya me public safety issue hai near main road.,hinglish,Mangammanapalya,health_safety,low
+Shettyhalli में बिजली नहीं आ रही है।,hi,Shettyhalli,electricity,high
+Garudacharpalya me paani jama hai aur machhar badh rahe hain.,hinglish,Garudacharpalya,drainage,critical
+Sarakki में सार्वजनिक सुरक्षा से जुड़ी समस्या है।,hi,Sarakki,health_safety,critical
+Transformer is sparking in Ullalu near park.,en,Ullalu,electricity,critical
+Hoysala Nagar me sewer water street par aa raha hai.,hinglish,Hoysala Nagar,drainage,high
+Hagadooru में गंदा पानी सप्लाई हो रहा है।,hi,Hagadooru,water_supply,critical
+A dead animal is lying in Mangammanapalya and causing foul smell.,en,Mangammanapalya,health_safety,critical
+There is a large pothole on the road in Konena Agrahara near bus stop.,en,Konena Agrahara,roads,high
+Peenya Industrial Area wali gali me street lights kaam nahi kar rahi.,hinglish,Peenya Industrial Area,street_lights,medium
+Begur me garbage burning se smoke aur breathing problem ho rahi hai.,hinglish,Begur,health_safety,critical
+Kengeri me bijli nahi aa rahi for 3 days.,hinglish,Kengeri,electricity,high
+Jayachamarajendra Nagar में पानी का प्रेशर बहुत कम है।,hi,Jayachamarajendra Nagar,water_supply,high
+The public facility in Ulsoor needs maintenance.,en,Ulsoor,public_services,low
+Subedarapalya में मरा हुआ जानवर पड़ा है और बदबू आ रही है।,hi,Subedarapalya,health_safety,critical
+Hagadooru wali gali me street lights kaam nahi kar rahi.,hinglish,Hagadooru,street_lights,medium
+Garbage is dumped openly in Thanisandra near ward office.,en,Thanisandra,sanitation,high
+Singasandra me drainage block hai near residential area.,hinglish,Singasandra,drainage,high
+Chamrajpet में कई दिनों से स्ट्रीट लाइट काम नहीं कर रही है।,hi,Chamrajpet,street_lights,medium
+Water supply has not come in Shankaramata since yesterday.,en,Shankaramata,water_supply,high
+Yelahanka old Satellite Town में सफाई ठीक से नहीं हो रही है।,hi,Yelahanka old Satellite Town,sanitation,high
+Sewage water is flowing on the street in Radhakrishna Temple.,en,Radhakrishna Temple,drainage,critical
+Horamavu में आवारा कुत्तों से सुरक्षा समस्या है।,hi,Horamavu,health_safety,critical
+Civic service request from Gottigere needs attention.,en,Gottigere,public_services,low
+Benniganahalli me public safety issue hai near hospital.,hinglish,Benniganahalli,health_safety,critical
+Street light pole in Hemmigepura needs repair near park.,en,Hemmigepura,street_lights,medium
+Hoodi में खुले में कचरा पड़ा है।,hi,Hoodi,sanitation,high
+Drainage is blocked in Chalavadipalya near market.,en,Chalavadipalya,drainage,high
+Ramamurthy Nagar me broken road se accident ka risk hai.,hinglish,Ramamurthy Nagar,roads,high
+Kavalbyrasandra में मरा हुआ जानवर पड़ा है और बदबू आ रही है।,hi,Kavalbyrasandra,health_safety,critical
+Sunkenahalli में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Sunkenahalli,public_services,low
+J.P.Park me road par bada gadda hai near market.,hinglish,J.P.Park,roads,high
+Sewage water is flowing on the street in Jalahalli.,en,Jalahalli,drainage,critical
+Ward 9 में बिजली का तार नीचे लटक रहा है।,hi,Ward 9,electricity,critical
+There is a public safety issue in Vignana Nagar near temple.,en,Vignana Nagar,health_safety,critical
+HSR Layout में नाली का पानी सड़क पर आ रहा है।,hi,HSR Layout,drainage,high
+There is a public safety issue in Madiwala near apartment gate.,en,Madiwala,health_safety,critical
+Hongasandra me drainage block hai near residential area.,hinglish,Hongasandra,drainage,high
+Rajarajeshwari Nagar me street light pole repair karna hai near ward office.,hinglish,Rajarajeshwari Nagar,street_lights,medium
+Sweeping has not been done in Padmanabha Nagar and the area is dirty.,en,Padmanabha Nagar,sanitation,high
+Begur में टूटी सड़क से दुर्घटना का खतरा है।,hi,Begur,roads,high
+Vrushabhavati Nagar me safai properly nahi ho rahi.,hinglish,Vrushabhavati Nagar,sanitation,high
+Vijanapura me transformer se spark aa raha hai near bus stop.,hinglish,Vijanapura,electricity,critical
+Electric pole box is open in Byatarayanapura and it is unsafe.,en,Byatarayanapura,electricity,critical
+Dodda Bidarkallu में पाइपलाइन लीक हो रही है।,hi,Dodda Bidarkallu,water_supply,high
+Ulsoor me safai properly nahi ho rahi.,hinglish,Ulsoor,sanitation,high
+HBR Layout में पानी जमा है और मच्छर बढ़ रहे हैं।,hi,HBR Layout,drainage,critical
+Drain water is overflowing on the road in HBR Layout.,en,HBR Layout,drainage,critical
+Bellandur में कचरा नहीं उठाया गया है।,hi,Bellandur,sanitation,high
+Subramanya Nagar wali gali me street lights kaam nahi kar rahi.,hinglish,Subramanya Nagar,street_lights,medium
+Katriguppe me machhar badh rahe hain.,hinglish,Katriguppe,health_safety,critical
+Anjanapur में टूटी सड़क से दुर्घटना का खतरा है।,hi,Anjanapur,roads,high
+Kadugodi में बिजली का तार नीचे लटक रहा है।,hi,Kadugodi,electricity,critical
+Ward 5 me electric pole box open hai aur danger hai.,hinglish,Ward 5,electricity,critical
+Herohalli में पाइपलाइन लीक हो रही है।,hi,Herohalli,water_supply,high
+Byatarayanapura me paani supply nahi aa rahi for 2 days.,hinglish,Byatarayanapura,water_supply,high
+Ullalu me raat ko andhera rehta hai street light kharab hai.,hinglish,Ullalu,street_lights,medium
+Garbage burning in Giri Nagar is causing smoke and breathing problems.,en,Giri Nagar,health_safety,critical
+Sweeping has not been done in Anjanapur and the area is dirty.,en,Anjanapur,sanitation,high
+HBR Layout में सार्वजनिक सुरक्षा से जुड़ी समस्या है।,hi,HBR Layout,health_safety,critical
+Bilekahalli में कचरा नहीं उठाया गया है।,hi,Bilekahalli,sanitation,high
+Garbage is dumped openly in Doddanekkundi near bus stop.,en,Doddanekkundi,sanitation,high
+The public facility in Horamavu needs maintenance.,en,Horamavu,public_services,low
+Attiguppe में सार्वजनिक सुविधा की मरम्मत की जरूरत है।,hi,Attiguppe,public_services,low
+Municipal service is not working properly in Pattabhiram Nagar.,en,Pattabhiram Nagar,public_services,medium
+Municipal service is not working properly in Domlur.,en,Domlur,public_services,medium
+Road repair is needed in Hoodi for 3 days.,en,Hoodi,roads,high
+Konena Agrahara me voltage fluctuation se appliances kharab ho rahe hain.,hinglish,Konena Agrahara,electricity,high
+Garbage burning in Arakere is causing smoke and breathing problems.,en,Arakere,health_safety,critical
+Vasanthapura में सार्वजनिक सेवा से जुड़ी समस्या है।,hi,Vasanthapura,public_services,medium
+A live electric wire is hanging in Kengeri near ward office.,en,Kengeri,electricity,low
+Garbage burning in Bommanahalli is causing smoke and breathing problems.,en,Bommanahalli,health_safety,critical
+Bommanahalli me broken road se accident ka risk hai.,hinglish,Bommanahalli,roads,high
+The public facility in HSR Layout needs maintenance.,en,HSR Layout,public_services,low
+Thanisandra में रात को अंधेरा रहता है क्योंकि स्ट्रीट लाइट खराब है।,hi,Thanisandra,street_lights,medium
+Rajagopala Nagar में आवारा कुत्तों से सुरक्षा समस्या है।,hi,Rajagopala Nagar,health_safety,critical
+Municipal service is not working properly in Ullalu.,en,Ullalu,public_services,medium
+Dodda Bidarkallu में कई दिनों से स्ट्रीट लाइट काम नहीं कर रही है।,hi,Dodda Bidarkallu,street_lights,medium
+Adugodi में स्ट्रीट लाइट बंद है।,hi,Adugodi,street_lights,medium
+Street light pole in Ullalu needs repair near bus stop.,en,Ullalu,street_lights,medium
+A live electric wire is hanging in Hebbal near market.,en,Hebbal,electricity,low
+Jakkur में स्ट्रीट लाइट की मरम्मत की जरूरत है।,hi,Jakkur,street_lights,medium
+Dodda Bidarkallu me drainage block hai near park.,hinglish,Dodda Bidarkallu,drainage,high
+There is a public safety issue in Nagavara near apartment gate.,en,Nagavara,health_safety,low
+Konena Agrahara me broken road se accident ka risk hai.,hinglish,Konena Agrahara,roads,low
+Kengeri में रात को अंधेरा रहता है क्योंकि स्ट्रीट लाइट खराब है।,hi,Kengeri,street_lights,medium
+HSR Layout में सार्वजनिक सेवा से जुड़ी समस्या है।,hi,HSR Layout,public_services,medium
+Visvesvarapuram me public safety issue hai near residential area.,hinglish,Visvesvarapuram,health_safety,critical
+J.P.Nagar में सार्वजनिक सुरक्षा से जुड़ी समस्या है।,hi,J.P.Nagar,health_safety,low
+Begur में आवारा कुत्तों से सुरक्षा समस्या है।,hi,Begur,health_safety,low
+Sanjay Nagar में मरा हुआ जानवर पड़ा है और बदबू आ रही है।,hi,Sanjay Nagar,health_safety,critical
+Mosquito breeding is increasing in Hemmigepura due to stagnant water.,en,Hemmigepura,health_safety,critical
+Hombegowda Nagar में कचरे से बदबू फैल रही है।,hi,Hombegowda Nagar,sanitation,critical
+Thanisandra me kachra collect nahi hua for 2 days.,hinglish,Thanisandra,sanitation,high
+Waste collection is not happening properly in Shettyhalli.,en,Shettyhalli,sanitation,low
+Garbage has not been collected in Kadugodi for several days.,en,Kadugodi,sanitation,high
+Doddanekkundi में सीवेज का पानी सड़क पर बह रहा है।,hi,Doddanekkundi,drainage,critical
+Drainage is blocked in Jakkur near main road.,en,Jakkur,drainage,high
+Electric pole box is open in Jayanagar and it is unsafe.,en,Jayanagar,electricity,critical
+Sudduguntepalya wali gali me street lights kaam nahi kar rahi.,hinglish,Sudduguntepalya,street_lights,medium
+Municipal service is not working properly in Vignana Nagar.,en,Vignana Nagar,public_services,medium
+Ward 8 me paani supply nahi aa rahi for one week.,hinglish,Ward 8,water_supply,high
+Adugodi में रात को अंधेरा रहता है क्योंकि स्ट्रीट लाइट खराब है।,hi,Adugodi,street_lights,medium
+Gandhi Nagar me street light pole repair karna hai near market.,hinglish,Gandhi Nagar,street_lights,medium
+Hagadooru में कचरा नहीं उठाया गया है।,hi,Hagadooru,sanitation,high
+Gurappanapalya में पाइपलाइन लीक हो रही है।,hi,Gurappanapalya,water_supply,high
+Vidyapeetha me street light band hai for several days.,hinglish,Vidyapeetha,street_lights,medium
+Street light pole in Jeevanbhima Nagar needs repair near park.,en,Jeevanbhima Nagar,street_lights,medium
+Ward 12 me voltage fluctuation se appliances kharab ho rahe hain.,hinglish,Ward 12,electricity,high
+Contaminated water is being supplied in Gottigere.,en,Gottigere,water_supply,critical
+Anjanapur me drainage block hai near main road.,hinglish,Anjanapur,drainage,high
+Nandini Layout में नगर निगम सेवा ठीक से काम नहीं कर रही है।,hi,Nandini Layout,public_services,medium
+Sweeping has not been done in Singasandra and the area is dirty.,en,Singasandra,sanitation,medium
+Puttenahalli से नागरिक सुविधा से जुड़ी शिकायत है।,hi,Puttenahalli,public_services,low
+Kottigepalya me nali ka paani road par aa raha hai.,hinglish,Kottigepalya,drainage,high
+Sri Nagar me road condition bahut kharab hai.,hinglish,Sri Nagar,roads,high
+There is a public service issue in Nagarabhavi.,en,Nagarabhavi,public_services,medium
+Basavanapura me road par bada gadda hai near school.,hinglish,Basavanapura,roads,high
+The lane in Gandhi Nagar becomes unsafe at night because street lights are not working.,en,Gandhi Nagar,street_lights,critical
+Ward 4 में पानी की सप्लाई नहीं आ रही है।,hi,Ward 4,water_supply,high
+J.P.Nagar me machhar badh rahe hain.,hinglish,J.P.Nagar,health_safety,low
+Transformer is sparking in Sunkenahalli near ward office.,en,Sunkenahalli,electricity,critical
+Hoysala Nagar में खुले में कचरा पड़ा है।,hi,Hoysala Nagar,sanitation,high
+Dodda Bidarkallu me public safety issue hai near park.,hinglish,Dodda Bidarkallu,health_safety,critical
+Doddanekkundi में नगर निगम सेवा ठीक से काम नहीं कर रही है।,hi,Doddanekkundi,public_services,medium
+Byatarayanapura में सड़क की हालत खराब है।,hi,Byatarayanapura,roads,medium
+Chikpete me road condition bahut kharab hai.,hinglish,Chikpete,roads,high
+A dead animal is lying in Anjanapur and causing foul smell.,en,Anjanapur,health_safety,critical
+Dharmarayaswamy Temple Ward में बिजली नहीं आ रही है।,hi,Dharmarayaswamy Temple Ward,electricity,high
+Ullalu में कई दिनों से स्ट्रीट लाइट काम नहीं कर रही है।,hi,Ullalu,street_lights,medium
+K.R.Market me road repair ki zarurat hai for one week.,hinglish,K.R.Market,roads,medium
+There is a large pothole on the road in Vasanthapura near ward office.,en,Vasanthapura,roads,high
+Bellandur me public safety issue hai near bus stop.,hinglish,Bellandur,health_safety,low
+Basavanapura में स्ट्रीट लाइट बंद है।,hi,Basavanapura,street_lights,medium
+Thanisandra me broken road se accident ka risk hai.,hinglish,Thanisandra,roads,low
+A.Narayanapura me kachre se badbu aa rahi hai.,hinglish,A.Narayanapura,sanitation,critical
+Stray dogs are creating safety issues in Bellandur.,en,Bellandur,health_safety,critical
+Ward 7 me water pressure bahut low hai.,hinglish,Ward 7,water_supply,low
+Chikkalasandra me broken road se accident ka risk hai.,hinglish,Chikkalasandra,roads,high
+A live electric wire is hanging in Rajajinagar near temple.,en,Rajajinagar,electricity,low
+K.R.Puram me public safety issue hai near main road.,hinglish,K.R.Puram,health_safety,critical
+Garbage has not been collected in A.Narayanapura since yesterday.,en,A.Narayanapura,sanitation,medium
+HSR Layout me drinking water dirty aur smell wala aa raha hai.,hinglish,HSR Layout,water_supply,high
+Koramangala me contaminated water supply ho raha hai.,hinglish,Koramangala,water_supply,critical
+Gandhi Nagar में स्ट्रीट लाइट की मरम्मत की जरूरत है।,hi,Gandhi Nagar,street_lights,medium
+Vignana Nagar me drinking water dirty aur smell wala aa raha hai.,hinglish,Vignana Nagar,water_supply,high
+Pulikeshi Nagar me street light pole repair karna hai near park.,hinglish,Pulikeshi Nagar,street_lights,medium
+Vignana Nagar me public safety issue hai near park.,hinglish,Vignana Nagar,health_safety,critical
+Pattabhiram Nagar में सड़क की मरम्मत की जरूरत है।,hi,Pattabhiram Nagar,roads,low
+There is a public service issue in Bharathi Nagar.,en,Bharathi Nagar,public_services,medium
+BTM Layout se civic service related complaint hai.,hinglish,BTM Layout,public_services,low
+Varthur में सफाई ठीक से नहीं हो रही है।,hi,Varthur,sanitation,high
+Someshwara me kachre se badbu aa rahi hai.,hinglish,Someshwara,sanitation,critical
+Sampangiram Nagar में सार्वजनिक सेवा से जुड़ी समस्या है।,hi,Sampangiram Nagar,public_services,medium
+Yelachenahalli me paani supply nahi aa rahi since yesterday.,hinglish,Yelachenahalli,water_supply,high
+Kodigehalli me garbage khula pada hai near apartment gate.,hinglish,Kodigehalli,sanitation,high
+Water pressure is very low in Maruthi Seva Nagar.,en,Maruthi Seva Nagar,water_supply,high
+Vijanapura में पानी जमा है और मच्छर बढ़ रहे हैं।,hi,Vijanapura,drainage,high
+Marathalli में कई दिनों से स्ट्रीट लाइट काम नहीं कर रही है।,hi,Marathalli,street_lights,medium
+Hoysala Nagar me public safety issue hai near hospital.,hinglish,Hoysala Nagar,health_safety,low
+Agrahara Dasarahalli में पानी जमा है और मच्छर बढ़ रहे हैं।,hi,Agrahara Dasarahalli,drainage,high
+Street light is not working in Attiguppe near market for 3 days.,en,Attiguppe,street_lights,medium
+Vasanthapura में सड़क की मरम्मत की जरूरत है।,hi,Vasanthapura,roads,high
+Jayangar me public service issue hai.,hinglish,Jayangar,public_services,medium
+Ward 5 me transformer se spark aa raha hai near hospital.,hinglish,Ward 5,electricity,critical
+Newthippasandra me bijli nahi aa rahi since yesterday.,hinglish,Newthippasandra,electricity,high
+Rajajinagar में ट्रांसफार्मर से चिंगारी निकल रही है।,hi,Rajajinagar,electricity,critical
+Ward 11 में पानी का प्रेशर बहुत कम है।,hi,Ward 11,water_supply,high
+There is a public safety issue in HBR Layout near bus stop.,en,HBR Layout,health_safety,critical
+Sewage water is flowing on the street in Chikpete.,en,Chikpete,drainage,critical
+There is a public service issue in Begur.,en,Begur,public_services,medium
+Voltage fluctuation in Hebbal is damaging home appliances.,en,Hebbal,electricity,high
+Koramangala में नगर निगम सेवा ठीक से काम नहीं कर रही है।,hi,Koramangala,public_services,medium
+Vishwanathnagenahalli me kachra collect nahi hua for 2 days.,hinglish,Vishwanathnagenahalli,sanitation,high
+Kempegowda Ward में मरा हुआ जानवर पड़ा है और बदबू आ रही है।,hi,Kempegowda Ward,health_safety,critical
+Madiwala में खुले में कचरा पड़ा है।,hi,Madiwala,sanitation,high
+Ganga Nagar में सड़क पर बड़ा गड्ढा है।,hi,Ganga Nagar,roads,high
+Vannarpet me raat ko andhera rehta hai street light kharab hai.,hinglish,Vannarpet,street_lights,medium
+Kamakshipalya me voltage fluctuation se appliances kharab ho rahe hain.,hinglish,Kamakshipalya,electricity,high
+Moodalapalya me stray dogs se safety issue hai.,hinglish,Moodalapalya,health_safety,critical
+Basavanapura में सार्वजनिक सेवा से जुड़ी समस्या है।,hi,Basavanapura,public_services,medium
+Garbage has not been collected in Jeevanbhima Nagar for 2 days.,en,Jeevanbhima Nagar,sanitation,high
+Hemmigepura me street light pole repair karna hai near main road.,hinglish,Hemmigepura,street_lights,medium
+Marathalli में नाली का पानी सड़क पर आ रहा है।,hi,Marathalli,drainage,critical
+Dodda Bidarkallu में नाली बंद है।,hi,Dodda Bidarkallu,drainage,high
+Whitefield में पाइपलाइन लीक हो रही है।,hi,Whitefield,water_supply,low
+Water is stagnant in Vishwanathnagenahalli and mosquitoes are increasing.,en,Vishwanathnagenahalli,drainage,critical
+Drain water is overflowing on the road in Rayapuram.,en,Rayapuram,drainage,high
+There is no electricity in Hemmigepura for 2 days.,en,Hemmigepura,electricity,high
+Bellandur में बिजली के खंभे का बॉक्स खुला है और खतरा है।,hi,Bellandur,electricity,low
+K.R.Puram me public safety issue hai near bus stop.,hinglish,K.R.Puram,health_safety,critical
+Vignana Nagar में सफाई ठीक से नहीं हो रही है।,hi,Vignana Nagar,sanitation,high
+Garbage is dumped openly in HSR Layout near bus stop.,en,HSR Layout,sanitation,high
+Electric pole box is open in Dayananda Nagar and it is unsafe.,en,Dayananda Nagar,electricity,critical
+Jayangar me safai properly nahi ho rahi.,hinglish,Jayangar,sanitation,medium
+Road repair is needed in Basavanapura for 2 days.,en,Basavanapura,roads,medium
+The lane in Chamrajpet becomes unsafe at night because street lights are not working.,en,Chamrajpet,street_lights,critical
+Herohalli me kachre se badbu aa rahi hai.,hinglish,Herohalli,sanitation,critical
+Jnanabharathi Ward में स्ट्रीट लाइट बंद है।,hi,Jnanabharathi Ward,street_lights,medium
+The public facility in Arakere needs maintenance.,en,Arakere,public_services,low
+Singasandra me municipal service properly kaam nahi kar rahi.,hinglish,Singasandra,public_services,critical
+HBR Layout me nali ka paani road par aa raha hai.,hinglish,HBR Layout,drainage,high
+Sewage water is flowing on the street in Agrahara Dasarahalli.,en,Agrahara Dasarahalli,drainage,critical
+Hoodi me road par bada gadda hai near bus stop.,hinglish,Hoodi,roads,high
+Drinking water in Singasandra is dirty and smells bad.,en,Singasandra,water_supply,high
+Malleshwaram wali gali me street lights kaam nahi kar rahi.,hinglish,Malleshwaram,street_lights,medium
+Begur me live wire latak raha hai near park.,hinglish,Begur,electricity,critical
+Garbage is dumped openly in Ullalu near hospital.,en,Ullalu,sanitation,high
+Thanisandra me paani jama hai aur machhar badh rahe hain.,hinglish,Thanisandra,drainage,high
+There is a public service issue in Kodigehalli.,en,Kodigehalli,public_services,medium
+Govindraja Nagara में सड़क की मरम्मत की जरूरत है।,hi,Govindraja Nagara,roads,high
+Kottigepalya में नाली का पानी सड़क पर आ रहा है।,hi,Kottigepalya,drainage,high
+Street light is not working in Vidyapeetha near hospital for one week.,en,Vidyapeetha,street_lights,medium
+Singasandra में कचरा नहीं उठाया गया है।,hi,Singasandra,sanitation,high
+Pulikeshi Nagar me drainage block hai near main road.,hinglish,Pulikeshi Nagar,drainage,high
+Rajaji Nagar में मरा हुआ जानवर पड़ा है और बदबू आ रही है।,hi,Rajaji Nagar,health_safety,critical
+Garbage is dumped openly in Marappana Palya near park.,en,Marappana Palya,sanitation,high
+Radhakrishna Temple में सीवेज का पानी सड़क पर बह रहा है।,hi,Radhakrishna Temple,drainage,critical
+Hemmigepura me kachre se badbu aa rahi hai.,hinglish,Hemmigepura,sanitation,critical
+Jayachamarajendra Nagar me safai properly nahi ho rahi.,hinglish,Jayachamarajendra Nagar,sanitation,high
+Puttenahalli me road condition bahut kharab hai.,hinglish,Puttenahalli,roads,high
+Rajaji Nagar me paani jama hai aur machhar badh rahe hain.,hinglish,Rajaji Nagar,drainage,high
+Hemmigepura me transformer se spark aa raha hai near park.,hinglish,Hemmigepura,electricity,critical
+Gottigere me dead animal pada hai aur badbu aa rahi hai.,hinglish,Gottigere,health_safety,critical
+Kottigepalya में स्ट्रीट लाइट की मरम्मत की जरूरत है।,hi,Kottigepalya,street_lights,medium
+Garbage burning in Hemmigepura is causing smoke and breathing problems.,en,Hemmigepura,health_safety,critical
+There is a public safety issue in Katriguppe near park.,en,Katriguppe,health_safety,critical
+Voltage fluctuation in Uttarahalli is damaging home appliances.,en,Uttarahalli,electricity,high
+Municipal service is not working properly in Vasanthapura.,en,Vasanthapura,public_services,medium
+Ramaswamy Palya में कचरे से बदबू फैल रही है।,hi,Ramaswamy Palya,sanitation,critical
+Drainage is blocked in Rajagopala Nagar near school.,en,Rajagopala Nagar,drainage,high
+Gali Anjaneya Swamy Temple Ward में रात को अंधेरा रहता है क्योंकि स्ट्रीट लाइट खराब है।,hi,Gali Anjaneya Swamy Temple Ward,street_lights,medium
+There is a large pothole on the road in Begur near apartment gate.,en,Begur,roads,high
+Nayandanahalli me water pressure bahut low hai.,hinglish,Nayandanahalli,water_supply,high

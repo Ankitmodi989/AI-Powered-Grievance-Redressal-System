@@ -15,14 +15,16 @@ export default function UserDashboard() {
 
   useEffect(() => {
     const fetchGrievances = async () => {
-      try {
-        // 1. Check if token exists before making request
-        const token = localStorage.getItem("token");
-        if (!token) {
-          throw new Error("No access token found. Please login.");
-         
-        }
 
+      // 1. Check if token exists before making request
+      const token = localStorage.getItem("token");
+
+      if (!token) {
+        router.push("/auth/login/user");  
+        return;
+      }
+
+      try {
         const res = await api.get("/grievance/my-grievances");
         setGrievances(res.data);
       } catch (err: any) {
@@ -35,10 +37,10 @@ export default function UserDashboard() {
             localStorage.removeItem("token");
             router.push("/auth/login/user");
           }, 2000);
-        } 
+        }
         // 3. Handle Network Errors (Backend down/CORS)
         else if (err.message === "Network Error") {
-           setError("Cannot connect to server. Is the backend running?");
+          setError("Cannot connect to server. Is the backend running?");
         }
         else {
           setError(err.response?.data?.detail || "Failed to load grievances.");
@@ -71,7 +73,7 @@ export default function UserDashboard() {
 
       <div className="pt-24 px-6 md:px-12 pb-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          
+
           {/* Chatbot */}
           <div className="w-full">
             <GrievanceChatbot
@@ -85,7 +87,7 @@ export default function UserDashboard() {
 
             {loading ? (
               <div className="flex justify-center items-center h-40">
-                 <p className="text-gray-500 animate-pulse">Loading data...</p>
+                <p className="text-gray-500 animate-pulse">Loading data...</p>
               </div>
             ) : error ? (
               <div className="bg-red-50 text-red-600 p-4 rounded-lg border border-red-200">

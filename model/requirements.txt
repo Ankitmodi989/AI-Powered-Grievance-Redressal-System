@@ -1,0 +1,10 @@
+# Baseline pipeline (scripts 01-03)
+pandas>=2.0
+scikit-learn>=1.3
+joblib>=1.3
+
+# Optional transformer fine-tuning (script 04)
+# transformers>=4.40
+# datasets>=2.19
+# torch>=2.2
+# accelerate>=0.30
