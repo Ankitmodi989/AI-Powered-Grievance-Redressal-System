@@ -57,10 +57,13 @@ json
 }
 4. How to Run the Application
 To run the server in development mode:
-
+# Open a terminal and execute the below command 
 powershell
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
 To send a test request:
-
+# Open another terminal and excute the below command 
 powershell
 python -c "import requests; print(requests.post('http://127.0.0.1:8000/translate', json={'text': 'Bonjour, comment allez-vous?'}).json())"
+
+# To Test the api on local host follow below link
+http://127.0.0.1:8000/docs
