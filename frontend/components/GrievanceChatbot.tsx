@@ -123,8 +123,11 @@ export default function GrievanceChatbot({
         setLoading(true);
 
         try {
-          const res = await api.post("/grievance/submit", { //
+          const res = await api.post("/grievance/submit", {
             description: analysis.original,
+            category: analysis.category,
+            priority: analysis.priority,
+            region: analysis.region,
           });
 
           onSubmitted(res.data);
@@ -193,8 +196,8 @@ export default function GrievanceChatbot({
 
               <div
                 className={`max-w-[80%] px-5 py-3 rounded-2xl text-sm leading-relaxed shadow-sm ${msg.sender === "bot"
-                    ? "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-200 dark:border-gray-700 rounded-tl-none"
-                    : "bg-blue-600 text-white rounded-tr-none"
+                  ? "bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-200 dark:border-gray-700 rounded-tl-none"
+                  : "bg-blue-600 text-white rounded-tr-none"
                   }`}
               >
                 <p dangerouslySetInnerHTML={{

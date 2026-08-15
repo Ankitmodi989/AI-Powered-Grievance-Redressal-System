@@ -4,6 +4,7 @@ const cors = require('cors');
 
 const authRoutes = require('./routes/auth');
 const grievanceRoutes = require('./routes/grievance');
+const aiRouter = require('./routes/ai')
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.use(express.json());
 
 app.use('/auth', authRoutes);
 app.use('/grievance', grievanceRoutes);
+app.use('/ai',aiRouter);
 
 // simple health check
 app.get('/', (req, res) => {

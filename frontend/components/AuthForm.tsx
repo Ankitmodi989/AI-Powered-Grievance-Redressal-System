@@ -36,6 +36,13 @@ export default function AuthForm({ type, role }: AuthFormProps) {
 
       if (!access_token) throw new Error("Invalid response from server");
 
+      if (role === "admin" && actualRole !== "admin") {
+        setError("You are not authorized as admin.");
+        setLoading(false);
+        return;
+      }
+
+
       localStorage.setItem("token", access_token);
       localStorage.setItem("role", actualRole); // backend ka role use karo, prop wala nahi
 
