@@ -44,7 +44,7 @@ def predict(text: str):
 
 
 if __name__ == "__main__":
-    text = sys.argv[1] if len(sys.argv) > 1 else "my street light is broken and needs to be fixed"
+    text = sys.argv[1] if len(sys.argv) > 1 else "Ward 12 mein paani ki supply nahi aa rahi hai."
     result = predict(text)
     print(f"Text: {text}")
     for k, v in result.items():

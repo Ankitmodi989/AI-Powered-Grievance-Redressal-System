@@ -34,6 +34,7 @@ export default function AdminDashboard() {
   const router = useRouter();
   const [grievances, setGrievances] = useState<Grievance[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const [filterStatus, setFilterStatus] = useState("All");
 
@@ -44,6 +45,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     const init = async () => {
       try {
+        setError("");
         const token = localStorage.getItem("token");
         const role = localStorage.getItem("role");
 
@@ -54,8 +56,17 @@ export default function AdminDashboard() {
 
         const res = await api.get("/grievance/all");
         setGrievances(res.data);
-      } catch (error) {
-        console.error("Failed to load admin data", error);
+      } catch (err: any) {
+        console.error("Failed to load admin data", err);
+        if (err.response?.status === 401 || err.response?.status === 403) {
+          setError("Unauthorized or session expired. Redirecting to login...");
+          setTimeout(() => {
+            localStorage.clear();
+            router.push("/auth/login/admin");
+          }, 2000);
+        } else {
+          setError(err.response?.data?.detail || "Failed to load admin data.");
+        }
       } finally {
         setLoading(false);
       }
@@ -152,6 +163,12 @@ export default function AdminDashboard() {
 
       {/* Main Content */}
       <main className="p-6 max-w-7xl mx-auto space-y-6">
+
+        {error && (
+          <div className="bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400 p-4 rounded-xl border border-red-200 dark:border-red-800 text-sm font-medium">
+            ⚠️ {error}
+          </div>
+        )}
 
         {/* Stats Row */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -345,7 +362,7 @@ export default function AdminDashboard() {
                     <div className="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-line leading-7">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: selectedGrievance.solution
+                          __html: (selectedGrievance.solution || "**Short-term Action:** Inspection scheduled.\n**Long-term Solution:** Resolution in progress.")
                             .replace(
                               /\*\*Short-term Action:\*\*/g,
                               '<strong class="text-blue-700 block text-base mb-1">🚀 Short-term Action:</strong>'

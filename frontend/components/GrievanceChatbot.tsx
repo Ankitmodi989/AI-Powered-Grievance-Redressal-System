@@ -91,7 +91,9 @@ export default function GrievanceChatbot({
                 `I've detected the following:\n\n` +
                 `📂 **Category:** ${parsed.data.category}\n` +
                 `⚡ **Priority:** ${parsed.data.priority}\n` +
-                `📍 **Region:** ${parsed.data.region}`,
+                `📍 **Region:** ${parsed.data.region}` +
+                (parsed.data.confidence ? `\n🎯 **ML Confidence:** ${(parsed.data.confidence * 100).toFixed(0)}%` : "") +
+                (parsed.data.needs_review ? `\n⚠️ *(Flagged for human supervisor review)*` : ""),
             },
             {
               sender: "bot",

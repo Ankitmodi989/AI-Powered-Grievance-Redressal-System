@@ -1,11 +1,11 @@
 const express = require('express');
 const authMiddleware = require('../middleware/auth');
 const { analyzeMessage } = require('../services/aiService');
-
+const { classifyWithML } = require('../services/mlService');
 
 const router = express.Router();
 
-// POST /ai/chat
+// POST /ai/chat (Conversational assistant + ML classification)
 router.post('/chat', authMiddleware, async (req, res) => {
   try {
     const { text } = req.body;
@@ -22,4 +22,21 @@ router.post('/chat', authMiddleware, async (req, res) => {
   }
 });
 
-module.exports = router;
+// POST /ai/classify (Direct Grievance_System_Project v2 ML inference)
+router.post('/classify', authMiddleware, async (req, res) => {
+  try {
+    const { text } = req.body;
+
+    if (!text || !text.trim()) {
+      return res.status(400).json({ detail: 'Text is required.' });
+    }
+
+    const result = await classifyWithML(text);
+    res.json(result);
+  } catch (err) {
+    console.error('ML classification error:', err);
+    res.status(500).json({ detail: 'Failed to classify text with ML model.' });
+  }
+});
+
+module.exports = router;

@@ -1,4 +1,5 @@
 const { Groq } = require("groq-sdk");
+const { classifyWithML } = require("./mlService");
 
 const client = new Groq({
     apiKey: process.env.GROQ_API_KEY,
@@ -21,15 +22,17 @@ const tools = [
                     category: {
                         type: "string",
                         enum: [
-                            "Roads",
+                            "Roads / Public Works",
+                            "Waste Management / Sanitation",
+                            "Electricity / Street Lighting",
                             "Water Supply",
-                            "Electricity",
+                            "Drainage / Sewerage",
+                            "Traffic / Transport",
+                            "Parks / Public Spaces",
+                            "Other Civic Services",
+                            "Roads",
                             "Sanitation",
-                            "Healthcare",
-                            "Education",
-                            "Corruption",
-                            "Public Safety",
-                            "Other",
+                            "Electricity",
                         ],
                     },
                     priority: {
@@ -52,68 +55,113 @@ const tools = [
 ];
 
 /**
- * Sends the user's message to Groq. The model decides whether this is
- * a normal chat message or a grievance, and responds accordingly.
- *
+ * Sends the user's message to Groq and/or the local ML model (Grievance_System_Project v2).
  * Returns either:
  *   { type: "chat", reply: "..." }
  * or
- *   { type: "grievance", data: { category, priority, region, summary } }
+ *   { type: "grievance", data: { category, priority, region, summary, confidence, needs_review, source } }
  */
 async function analyzeMessage(text) {
-    const response = await client.chat.completions.create({
-        model: "llama-3.3-70b-versatile",
-        messages: [
-            {
-                role: "system",
-                content:
-                    "You are an AI assistant for a Government Grievance Redressal System (IGRS). " +
-                    "Your ONLY job is to: " +
-                    "(1) help citizens file grievances/complaints about civic issues (roads, water, " +
-                    "electricity, sanitation, healthcare, education, corruption, public safety, etc.), " +
-                    "(2) answer basic questions about how the grievance portal works (how to file a " +
-                    "complaint, how to check status, what info is needed, greetings/small talk), and " +
-                    "(3) call the file_grievance function when the user clearly describes a civic complaint. " +
-                    "\n\n" +
-                    "If the user asks something unrelated to grievances or this portal — such as general " +
-                    "knowledge questions, coding/programming questions, definitions unrelated to civic " +
-                    "issues, or any other off-topic request — politely decline and steer them back. " +
-                    "For example, reply with something like: " +
-                    "\"I'm here to help with civic grievances and this portal — I can't help with that. " +
-                    "Would you like to report an issue?\" " +
-                    "Do NOT answer off-topic questions, even briefly.",
-            },
-            {
-                role: "user",
-                content: text,
-            },
-        ],
-        tools,
-        tool_choice: "auto",
-        temperature: 0.3,
-    });
+    // 1. Run local trained ML pipeline (Grievance_System_Project v2)
+    const mlResult = await classifyWithML(text);
 
-    const message = response.choices[0].message;
+    try {
+        const response = await client.chat.completions.create({
+            model: "openai/gpt-oss-120b",
+            messages: [
+                {
+                    role: "system",
+                    content:
+                        "You are an AI assistant for a Government Grievance Redressal System (IGRS). " +
+                        "Your ONLY job is to: " +
+                        "(1) help citizens file grievances/complaints about civic issues (roads, water, " +
+                        "electricity, sanitation, healthcare, education, corruption, public safety, etc.), " +
+                        "(2) answer basic questions about how the grievance portal works (how to file a " +
+                        "complaint, how to check status, what info is needed, greetings/small talk), and " +
+                        "(3) call the file_grievance function when the user clearly describes a civic complaint. " +
+                        "\n\n" +
+                        "If the user asks something unrelated to grievances or this portal — such as general " +
+                        "knowledge questions, coding/programming questions, definitions unrelated to civic " +
+                        "issues, or any other off-topic request — politely decline and steer them back. " +
+                        "For example, reply with something like: " +
+                        "\"I'm here to help with civic grievances and this portal — I can't help with that. " +
+                        "Would you like to report an issue?\" " +
+                        "Do NOT answer off-topic questions, even briefly.",
+                },
+                {
+                    role: "user",
+                    content: text,
+                },
+            ],
+            tools,
+            tool_choice: "auto",
+            temperature: 0.3,
+        });
 
-    // Model decided this is a grievance
-    if (message.tool_calls && message.tool_calls.length > 0) {
-        const args = JSON.parse(message.tool_calls[0].function.arguments);
+        const message = response.choices[0].message;
+
+        // Model decided this is a grievance
+        if (message.tool_calls && message.tool_calls.length > 0) {
+            const args = JSON.parse(message.tool_calls[0].function.arguments);
+            return {
+                type: "grievance",
+                data: {
+                    category: mlResult.is_valid_complaint ? mlResult.category : args.category,
+                    priority: mlResult.is_valid_complaint ? mlResult.priority : args.priority,
+                    region: args.region || "Unknown",
+                    summary: args.summary || text.slice(0, 100),
+                    confidence: mlResult.department_confidence,
+                    needs_review: mlResult.needs_review,
+                    source: mlResult.is_valid_complaint ? "ml_pipeline_v2" : "groq",
+                },
+            };
+        }
+
+        // If Groq didn't trigger tool call, but ML model is highly confident (>0.75) it is a valid complaint
+        if (mlResult.is_valid_complaint && mlResult.department_confidence >= 0.75) {
+            return {
+                type: "grievance",
+                data: {
+                    category: mlResult.category,
+                    priority: mlResult.priority,
+                    region: "Unknown",
+                    summary: text.slice(0, 100),
+                    confidence: mlResult.department_confidence,
+                    needs_review: mlResult.needs_review,
+                    source: "ml_pipeline_v2",
+                },
+            };
+        }
+
+        // Normal conversation
         return {
-            type: "grievance",
-            data: {
-                category: args.category,
-                priority: args.priority,
-                region: args.region,
-                summary: args.summary,
-            },
+            type: "chat",
+            reply: message.content,
+        };
+    } catch (err) {
+        console.warn("Groq API unavailable, using local ML model fallback:", err.message);
+
+        // Fallback to local ML model
+        if (mlResult.is_valid_complaint) {
+            return {
+                type: "grievance",
+                data: {
+                    category: mlResult.category,
+                    priority: mlResult.priority,
+                    region: "Unknown",
+                    summary: text.slice(0, 100),
+                    confidence: mlResult.department_confidence,
+                    needs_review: mlResult.needs_review,
+                    source: "ml_pipeline_v2_fallback",
+                },
+            };
+        }
+
+        return {
+            type: "chat",
+            reply: "Hello! I am your AI Civic Assistant. How can I assist you with your civic grievance today?",
         };
     }
-
-    // Normal conversation
-    return {
-        type: "chat",
-        reply: message.content,
-    };
 }
 
 module.exports = { analyzeMessage };
